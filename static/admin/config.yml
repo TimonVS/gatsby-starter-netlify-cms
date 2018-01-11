@@ -4,6 +4,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+extension: json
 
 collections:
   - name: "blog"

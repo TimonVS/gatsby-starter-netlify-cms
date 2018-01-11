@@ -10,6 +10,7 @@ collections:
     label: "Blog"
     folder: "src/pages/blog"
     extension: json
+    format: json
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:

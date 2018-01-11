@@ -4,12 +4,12 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-extension: json
 
 collections:
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
+    extension: json
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
